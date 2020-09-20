@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.AboutActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/app_bar"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_about"
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/min_margin"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/title_about"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/name_developer"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/margin_about"
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/min_margin"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/lbl_email"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/email_dev"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_about"
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:layout_marginBottom="@dimen/min_margin"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/lbl_bio"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginRight="@dimen/margin_about"
+        android:layout_marginEnd="@dimen/margin_about"
+        android:layout_marginStart="@dimen/margin_about"
+        android:layout_marginLeft="@dimen/margin_about"
+        android:layout_marginBottom="@dimen/margin_about"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sizeLetter"
+        android:text="@string/descrip_bio"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

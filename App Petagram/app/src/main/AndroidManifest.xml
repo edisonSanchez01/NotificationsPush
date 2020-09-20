@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edisondeveloper.petagram">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Vista.ConfigPerfilActivity.ConfigPerfilActivity"
+            android:parentActivityName=".Vista.MainActivity.MainActivity"></activity>
+        <activity
+            android:name=".Vista.AboutActivity"
+            android:parentActivityName=".Vista.MainActivity.MainActivity" />
+        <activity
+            android:name=".Vista.MailActivity.MailActivity"
+            android:label="@string/title_activity_mail"
+            android:parentActivityName=".Vista.MainActivity.MainActivity" />
+        <activity
+            android:name=".Vista.TopFiveActivity.TopFiveActivity"
+            android:parentActivityName=".Vista.MainActivity.MainActivity" />
+        <activity android:name=".Vista.MainActivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".Modelo.ProviderTopFive"
+            android:authorities="com.edisondeveloper.petagram"
+            android:exported="false" />
+
+        <service
+            android:name=".Modelo.NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

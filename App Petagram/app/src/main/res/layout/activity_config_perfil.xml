@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Vista.ConfigPerfilActivity.ConfigPerfilActivity">
+
+    <include android:id="@+id/action_bar"
+        layout="@layout/app_bar"/>
+
+    <TextView
+        android:id="@+id/config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_about"
+        android:textSize="@dimen/sizeLetterTitle"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="@string/text_title_config_dates"
+        app:layout_constraintTop_toBottomOf="@id/action_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/spaceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_about"
+        app:layout_constraintTop_toBottomOf="@id/config_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextNamePerfil"
+            android:layout_marginStart="@dimen/margin"
+            android:layout_marginEnd="@dimen/margin"
+            android:hint="@string/hint_edit_text_config"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:text="@string/text_btn_save_changes"
+        android:theme="@style/buttonStyle"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/sizeLetterButton"
+        android:background="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:paddingStart="@dimen/margin_about"
+        android:paddingEnd="@dimen/margin_about"
+        app:layout_constraintTop_toBottomOf="@id/action_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

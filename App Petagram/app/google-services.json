@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085636650994",
+    "firebase_url": "https://heroku-aaeec.firebaseio.com",
+    "project_id": "heroku-aaeec",
+    "storage_bucket": "heroku-aaeec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085636650994:android:3f92f54c0c4336f64fed6b",
+        "android_client_info": {
+          "package_name": "com.edisondeveloper.petagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085636650994-p8rr8qsq91h1o3e6hlaq0qmkip598sg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEZmdr9NAl9cD5CN1T5EFBEAfIIDJ-gU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085636650994-p8rr8qsq91h1o3e6hlaq0qmkip598sg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

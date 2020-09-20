@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="prev_name">Matias</string>
+    <string name="prev_qualification">5</string>
+    <string name="mascot01">Rito y Risitos</string>
+    <string name="mascot02">Manchas y Domino</string>
+    <string name="mascot03">Matias</string>
+    <string name="mascot04">Lupita</string>
+    <string name="mascot05">Killer y Tifanny</string>
+    <string name="mascot06">Hanna, Mirando y Rodrigo</string>
+    <string name="mascot07">Paco</string>
+    <string name="mascot08">Yaco</string>
+    <string name="mascot09">Pirulo</string>
+    <string name="mascot10">Destructor</string>
+    <string name="top_5">Top 5</string>
+    <string name="contac">Contacto</string>
+    <string name="acerca">Acerca de</string>
+    <string name="name">Nombre completo</string>
+    <string name="email">Correo Electronico</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="title_mail">Enviar Mail</string>
+    <string name="button_text_mail">Enviar Comentario</string>
+    <string name="title_activity_mail">MailActivity</string>
+    <string name="title_about">Desarrollador:</string>
+    <string name="lbl_bio">Biografia:</string>
+    <string name="lbl_email">Email:</string>
+    <string name="email_dev">edisondeveloper@hotmail.com</string>
+    <string name="descrip_bio">Vivo actualmente en Bogota, Colombia, soy tecnologo en computacion y desarrollo de software y
+        estudio Ingenieria en software en la universidad Manuela Beltran y he trabajado como desarrollador de aplicaciones moviles
+        para varias empresas de desarrollo de software</string>
+    <string name="name_developer">Edison Armando Sanchez Avendaño</string>
+    <string name="nombre_incorrecto">El nombre digitado no es valido</string>
+    <string name="email_incorrecto">El correo electronico digitado no es valido</string>
+    <string name="msg_incorrecto">No se ha digitado un mensaje para el destinatario</string>
+    <string name="successfull_msg">¡El mensaje ha sido enviado exitosamente!</string>
+    <string name="config_title">Configurar Cuenta</string>
+    <string name="hint_edit_text_config">Escribe tu nombre de usuario</string>
+    <string name="text_btn_save_changes">Guardar Cambios</string>
+    <string name="text_title_config_dates">Configurar Datos</string>
+    <string name="error_edit_text_empty">El nombre no puede estar vacio</string>
+    <string name="error_text_edit_text">El nombre digitado no es valido</string>
+    <string name="notifing_changes_name">el nombre de usuario ha sido cambiado satisfactoriamente</string>
+    <string name="recibir_notificaciones">Recibir Notificaciones</string>
+    <string name="registration_successfull">Se ha registrado su dispositivo en la base datos para recibir notificaciones</string>
+    <string name="msg_perfil_info">Da click sobre la foto para dar like</string>
+    <string name="like">Le has dado like a esta foto</string>
+
+</resources>
